@@ -8,6 +8,10 @@
   display: none;
 }
 
+.IGPS{
+  background: url(./assets/IGPS.jpg);
+}
+
 @media (max-width: 768px) {
   .mobile-menu-button {
     display: block;
