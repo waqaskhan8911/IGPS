@@ -1842,6 +1842,7 @@ ${pages.map(page => `<div class="page">${page.map(s => {
             <div className="flex items-center space-x-3">
               <School className="h-8 w-8" />
               <div>
+                <img  className='IGPS' src="" alt="" />
                 <span className="font-bold text-xl">IGPS</span>
                 <p className="text-xs text-blue-100">Iqra Grammar Public School</p>
               </div>
@@ -1909,7 +1910,7 @@ ${pages.map(page => `<div class="page">${page.map(s => {
                     <LogOut className="h-4 w-4" />
                     <span>Logout</span>
                   </button>
-                  <img src="./IGPS.jpg" alt="" />
+                  
                 </>
               )}
             </div>
